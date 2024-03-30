@@ -17,10 +17,10 @@ function App() {
 
             </div>
 
-            <div className="bg-[#0A3E6D] w-full">
-                <div className="text-white flex items-center justify-center text-center font-barlow font-semibold p-4 text-[18px] max-md:text-[15px]"> Welcome to my frontend playground, where I display a variety of my frontend projects.</div>
+            <div className=" bg-[#dbe8f3] w-full">
+                <div className="text-[#0A3E6D] flex items-center justify-center text-center font-barlow font-semibold p-4 text-[18px] max-md:text-[15px]"> Welcome to my frontend playground, where I display a variety of my frontend projects.</div>
                 
-                <div className="p-4  flex flex-wrap gap-2 items-center justify-center bg-[#dbe8f3] w-[100%] mx-auto text-[#0A3E6D]">
+                <div className="p-4  flex flex-wrap gap-2 items-center justify-center bg-[#0A3E6D] w-[100%] mx-auto text-white">
                     <h1 className=" text-center font-semibold text-[18px] max-md:text-[15px] flex items-center gap-1 justify-center"> <GoGoal  /> <span className="font-bold">Goal:</span> Building <span>100</span> projects  </h1>
 
                     <div className="h-[25px] w-[1px] bg-gray-500"></div>
