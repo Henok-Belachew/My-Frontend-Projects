@@ -10,7 +10,7 @@ function App() {
         <div className="my-2 flex flex-col gap-3">
             <div className="flex gap-[8px]  max-[688px]:flex-col  w-fit mx-auto ">
 
-                <div className="flex flex-col justify-center gap-1 items-center">
+                <div className="flex flex-col text-[#0A3E6D] justify-center gap-1 items-center">
                     <h1 className="font-bold font-barlow text-[20px]">Hi, I'm Henok Belachew </h1>
                     <p> Fullstack Developer | Ceritified UI/UX Designer </p>
                 </div>
