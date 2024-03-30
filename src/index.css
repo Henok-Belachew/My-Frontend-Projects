@@ -769,17 +769,13 @@ video {
   border-width: 1px;
 }
 
-.hover\:border-\[\]:hover {
-  border-color: ;
-}
+
 
 .hover\:border-\[3333\]:hover {
   border-color: 3333;
 }
 
-.hover\:border-\[\#33333\]:hover {
-  border-color: #33333;
-}
+
 
 .hover\:border-\[\#333333\]:hover {
   --tw-border-opacity: 1;
