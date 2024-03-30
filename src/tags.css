@@ -1,0 +1,49 @@
+/* CSS for 'junior' tag */
+.junior {
+    color: #aad742; /* lime-green */
+    border-color: #aad742;
+}
+
+.junior span {
+    background-color: #aad742;
+}
+
+/* CSS for 'advanced' tag */
+.advanced {
+    color: #f48925; /* orange */
+    border-color: #f48925;
+}
+
+.advanced span {
+    background-color: #f48925;
+}
+
+/* CSS for 'intermediate' tag */
+.intermediate {
+    color: #f1b604; /* sunflower-yellow */
+    border-color: #f1b604;
+}
+
+.intermediate span {
+    background-color: #f1b604;
+}
+
+/* CSS for 'guru' tag */
+.guru {
+    color: #ed2c49; /* red */
+    border-color: #ed2c49;
+}
+
+.guru span {
+    background-color: #ed2c49;
+}
+
+/* CSS for 'newbie' tag */
+.newbie {
+    color: #6abecd; /* sky-blue */
+    border-color: #6abecd;
+}
+
+.newbie span {
+    background-color: #6abecd;
+}
