@@ -6,7 +6,7 @@ function App() {
     <div>
       
 
-      <h1>
+      <h1 className="font-bold text-3xl">
         React and Tailwind is correct!
       </h1>
 
