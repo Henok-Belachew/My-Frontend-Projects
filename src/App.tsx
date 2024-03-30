@@ -1,9 +1,13 @@
 import ProjectCard from "./Components/ProjectCard"
 import { Projects } from "./Projects"
-// import avator from "./assets/images/avator.jpg"	
+
 import { GoGoal } from "react-icons/go";
-import { LuCheckCircle, LuListTodo } from "react-icons/lu";
-import { MdOutlinePending } from "react-icons/md";
+import { LuCheckCircle, LuListTodo,   } from "react-icons/lu";
+import avator from "./assets/images/avator.jpg"
+
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 
 function App() {
@@ -13,8 +17,10 @@ function App() {
             <div className="flex gap-[8px]  max-[688px]:flex-col  w-fit mx-auto ">
 
                 <div className="flex flex-col text-[#0A3E6D] justify-center gap-1 items-center">
-                    <h1 className="font-bold font-barlow text-[20px]">Hi, I'm Henok Belachew </h1>
+                    <img className="rounded-full w-12" src={avator} alt="" />
+                    <h1 className="font-bold flex gap-1 items-center font-barlow text-[20px]">Hi, I'm  Henok Belachew  </h1>
                     <p> Fullstack Developer | Ceritified UI/UX Designer </p>
+                    
                 </div>
 
             </div>
@@ -23,15 +29,15 @@ function App() {
                 <div className="text-[#0A3E6D] flex items-center justify-center text-center font-barlow font-semibold p-4 text-[18px] max-md:text-[15px]"> Welcome to my frontend playground, where I display a variety of my frontend projects.</div>
                 
                 <div className="p-4  flex flex-wrap gap-2 items-center justify-center bg-[#0A3E6D] w-[100%] mx-auto text-white">
-                    <h1 className=" text-center font-semibold text-[18px] max-md:text-[15px] flex items-center gap-1 justify-center"> <GoGoal  /> <span className="font-bold">Goal:</span> Building <span>100</span> projects  </h1>
+                    <h1 className=" text-center text-[18px] max-md:text-[15px] flex items-center gap-1 justify-center"> <GoGoal  /> <span className="font-bold">Goal :</span> Building <span>100</span> projects  </h1>
 
-                    <div className="h-[25px] w-[1px] bg-gray-500"></div>
+                    <div className="h-[25px] w-[1px] bg-white opacity-50"></div>
 
-                    <h1 className=" text-center font-semibold text-[18px] max-md:text-[15px]  flex items-center gap-1 justify-center"> <LuCheckCircle /><span className="font-bold">Completed:</span> 1 project  </h1>
+                    <h1 className=" text-center text-[18px] max-md:text-[15px]  flex items-center gap-1 justify-center"> <LuCheckCircle /><span className="font-bold">Completed :</span> {Projects.length} project  </h1>
 
-                    <div className="h-[25px] w-[1px] bg-gray-500"></div>
+                    <div className="h-[25px] w-[1px] bg-white opacity-50"></div>
 
-                    <h1 className=" text-center font-semibold text-[18px] max-md:text-[15px]  flex items-center gap-1 justify-center"> <LuListTodo /><span className="font-bold">Left:</span> 99 project  </h1>
+                    <h1 className=" text-center text-[18px] max-md:text-[15px]  flex items-center gap-1 justify-center"> <LuListTodo /><span className="font-bold">Left :</span> {100 - Projects.length} project  </h1>
                     
             </div>
 
@@ -62,6 +68,13 @@ function App() {
 
           />
         ))}
+      </div>
+
+      <div className="bg-dark-blue justify-center py-4 w-full flex gap-4 text-white">
+      <FaLinkedinIn  className="cursor-pointer " size={20} onClick={() => window.open("https://www.linkedin.com/in/henok-belachew/", "_blank")}  />
+      <FaGithub className="cursor-pointer " size={20} onClick={() => window.open("https://github.com/Henok-Belachew", "_blank")} />
+
+    
       </div>
 
     </div>

@@ -53,11 +53,11 @@ function ProjectCard({projectName, html, css, ts, api, tag, demoLink, sourceCode
       {/* Buttons */}
 
       <div className="flex gap-4 items-center mt-4">
-        <button onClick={() => window.open(demoLink, "_blank")} className="hover:shadow-md hover:font-semibold flex justify-center  items-center gap-2 w-full  py-2 rounded-md border-[1px] border-[#dbe5e6]">
-            <span className="font- font-barlow ">Demo</span>  <LuExternalLink />
+        <button onClick={() => window.open(demoLink, "_blank")} className="hover:shadow-md hover:font-semibold flex justify-center  items-center gap-2 w-full bg-dark-blue  py-2 rounded-md border-[1px] border-dark-blue">
+            <span className="font-semibold font-barlow text-white ">Demo</span>  <LuExternalLink color="white" />
         </button>
-        <button onClick={() => window.open(sourceCodeLink, "_blank")} className="hover:shadow-md hover:font-semibold  flex justify-center items-center gap-2 w-full  py-2 rounded-md border-[1px] border-[#dbe5e6]">
-            <span className="font- font-barlow ">Source Code</span>   <LuGithub />
+        <button onClick={() => window.open(sourceCodeLink, "_blank")} className="hover:shadow-md  flex justify-center items-center gap-2 w-full  py-2 rounded-md border-[1px] border-dark-blue bg-[#dbe5e6]">
+            <span className="font-medium font-barlow text-dark-blue ">Source Code</span>   <LuGithub color="rgb(10 62 109 )" />
         </button>
       </div>
 

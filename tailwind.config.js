@@ -14,6 +14,7 @@ export default {
         'royal-blue': '#3e54a3',
         'pink': '#cf6390',
         'on-surface-light': '#737373',
+        'dark-blue': '#0A3E6D',
       },
       fontFamily: {
         'barlow': ['Barlow', 'sans-serif'],
