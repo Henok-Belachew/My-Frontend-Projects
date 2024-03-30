@@ -2,8 +2,9 @@ import ProjectCard from "./Components/ProjectCard"
 import { Projects } from "./Projects"
 // import avator from "./assets/images/avator.jpg"	
 import { GoGoal } from "react-icons/go";
-import { LuCheckCircle } from "react-icons/lu";
+import { LuCheckCircle, LuListTodo } from "react-icons/lu";
 import { MdOutlinePending } from "react-icons/md";
+
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
 
                     <div className="h-[25px] w-[1px] bg-gray-500"></div>
 
-                    <h1 className=" text-center font-semibold text-[18px] max-md:text-[15px]  flex items-center gap-1 justify-center"> <MdOutlinePending /><span className="font-bold">Left:</span> 99 project  </h1>
+                    <h1 className=" text-center font-semibold text-[18px] max-md:text-[15px]  flex items-center gap-1 justify-center"> <LuListTodo /><span className="font-bold">Left:</span> 99 project  </h1>
                     
             </div>
 
