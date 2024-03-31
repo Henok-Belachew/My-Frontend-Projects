@@ -5,7 +5,7 @@ import './index.css'
 import './tags.css'
 import Layout from './Layout.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Projects } from './Projects.tsx'
+// import { Projects } from './Projects.tsx'
 import ProjectView from './ProjectView.tsx'
 import NotificationPage from '../1 - Notification Page/src/App.tsx'
 import MultiStepForm from "../2 -Multistep Form/src/App.tsx"

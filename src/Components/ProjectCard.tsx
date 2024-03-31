@@ -18,7 +18,7 @@ interface Props {
 }
 
 
-function ProjectCard({projectName, html, css, ts, api, tag, demoLink, sourceCodeLink, img, description, id}: Props) {
+function ProjectCard({projectName, html, css, ts, api, tag,  sourceCodeLink, img, description, id}: Props) {
   return (
     <div className= "w-[320px]   bg-white border-[1px] rounded-lg border-[#dbe5e6]">
       
