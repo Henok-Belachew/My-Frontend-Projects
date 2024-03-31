@@ -19,7 +19,7 @@ function App() {
                 <div className="flex flex-col text-[#0A3E6D] justify-center gap-1 items-center">
                     <img className="rounded-full w-12" src={avator} alt="" />
                     <h1 className="font-bold flex gap-1 items-center font-barlow text-[20px]">Hi, I'm  Henok Belachew  </h1>
-                    <p> Fullstack Developer | Ceritified UI/UX Designer </p>
+                    <p className="text-[13px]"> Fullstack Developer and UI/UX Designer </p>
                     
                 </div>
 
@@ -71,7 +71,9 @@ function App() {
       </div>
 
       <div className="bg-dark-blue justify-center py-4 w-full flex gap-4 text-white">
+        
       <FaLinkedinIn  className="cursor-pointer " size={20} onClick={() => window.open("https://www.linkedin.com/in/henok-belachew/", "_blank")}  />
+      <h1>- Let's connect! -</h1>
       <FaGithub className="cursor-pointer " size={20} onClick={() => window.open("https://github.com/Henok-Belachew", "_blank")} />
 
     
