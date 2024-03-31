@@ -4,9 +4,8 @@ import { Projects } from "./Projects"
 import { GoGoal } from "react-icons/go";
 import { LuCheckCircle, LuListTodo,   } from "react-icons/lu";
 import avator from "./assets/images/avator.jpg"
+import Footer from "./Components/Footer";
 
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 
 
 
@@ -25,7 +24,7 @@ function App() {
 
             </div>
 
-            <div className=" bg-[#dbe8f3] w-full">
+            <div className=" bg-[#e6f0f8] w-full">
                 <div className="text-[#0A3E6D] flex items-center justify-center text-center font-barlow font-semibold p-4 text-[18px] max-md:text-[15px]"> Welcome to my frontend playground, where I display a variety of my frontend projects.</div>
                 
                 <div className="p-4  flex flex-wrap gap-2 items-center justify-center bg-[#0A3E6D] w-[100%] mx-auto text-white">
@@ -54,7 +53,7 @@ function App() {
       
         {Projects.map((project) => (
           <ProjectCard 
-          
+            id={project.id}
             projectName={project.projectName}
             html={project.html}
             css={project.css}
@@ -70,15 +69,9 @@ function App() {
         ))}
       </div>
 
-      <div className="bg-dark-blue justify-center py-4 w-full flex gap-4 text-white">
-        
-      <FaLinkedinIn  className="cursor-pointer " size={20} onClick={() => window.open("https://www.linkedin.com/in/henok-belachew/", "_blank")}  />
-      <h1>- Let's connect! -</h1>
-      <FaGithub className="cursor-pointer " size={20} onClick={() => window.open("https://github.com/Henok-Belachew", "_blank")} />
-
+      <Footer/>
+      
     
-      </div>
-
     </div>
   )
 }

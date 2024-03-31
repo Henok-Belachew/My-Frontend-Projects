@@ -7,6 +7,7 @@ import img5 from "./assets/images/avatar-kimberly-smith.webp"
 import img6 from "./assets/images/avatar-nathan-peterson.webp"
 import img7 from "./assets/images/avatar-anna-kim.webp"
 import img8 from "./assets/images/image-chess.webp"
+import './index.css'
 
 function App() {
   return (
